@@ -1,16 +1,6 @@
 # Horiseon2
+Upon loading the portfolio, the user is presented with the developer's name and a recent photo or avatar, as well as links to sections about the developer, their work, and how to contact them.
 
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
-```
+Clicking on one of the links in the navigation will cause the UI to scroll to the corresponding section, providing a seamless user experience. When the user clicks on the link to the section about the developer's work, they are presented with a section containing titled images of the developer's applications. The first application's image is larger in size than the others to draw the user's attention.
+
+Clicking on any of the application images will take the user to that deployed application. Additionally, the site has a responsive layout that adapts to the user's viewport, ensuring that the user can easily view the site on various screens and devices.
